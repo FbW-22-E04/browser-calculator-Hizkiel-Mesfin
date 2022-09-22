@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="primary-heading">calculation x</h1>
+    </header>
+
+    <main class="main">
+      <h2 class="type">Basic Arithmetic</h2>
+
+      <form class="form form-plus" action="#">
+        <input class="input plus" type="number" />
+        <span class="sign">+</span>
+        <input class="input plus" type="number" />
+        <span class="sign">=</span>
+        <span class="result result-plus"></span>
+      </form>
+
+      <form class="form form-minus" action="#">
+        <input class="input minus" type="number" />
+        <span class="sign">-</span>
+        <input class="input minus" type="number" />
+        <span class="sign">=</span>
+        <span class="result result-minus"></span>
+      </form>
+
+      <form class="form form-times" action="#">
+        <input class="input times" type="number" />
+        <span class="sign">*</span>
+        <input class="input times" type="number" />
+        <span class="sign">=</span>
+        <span class="result result-times"></span>
+      </form>
+
+      <form class="form form-divide" action="#">
+        <input class="input divide" type="number" />
+        <span class="sign">/</span>
+        <input class="input divide" type="number" />
+        <span class="sign">=</span>
+        <span class="result result-divide"></span>
+      </form>
+
+      <h2 class="type special">Special operations</h2>
+      <p class="modulo-text">Modulo</p>
+
+      <form class="form form-modulo" action="#">
+        <input class="input modulo" type="number" />
+        <span class="sign">%</span>
+        <input class="input modulo" type="number" />
+        <span class="sign">=</span>
+        <span class="result result-modulo"></span>
+      </form>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
